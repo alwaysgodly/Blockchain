@@ -21,24 +21,38 @@ This project now includes Hadcoin, your own custom cryptocurrency running on a l
 ## 🪙 Hadcoin — Your Own Cryptocurrency
 This project introduces Hadcoin, a basic cryptocurrency built on top of your Python blockchain.
 
+##🔐 Smart Contract for Hadcoin (Solidity)
+Hadcoin has also been implemented as a smart contract using Solidity — enabling deployment on Ethereum-based networks.
+
+Contract Capabilities
+- Mint initial token supply
+- Record ownership balances
+- Transfer tokens between accounts
+- Emit events on each transaction
+
 ## 🛠️ Tech Stack 
 - Python 3
 - Flask
 - Hashlib
 - Datetime
 - JSON
+- Solidity
 
 ## Folder Structure
 ```
 Blockchain/
-│── blockchain.py      # Main blockchain + Flask API
-│── README.md          # Project documentation
-|──hadecoin.py
-|──hadecoin_node_5001.py
-|──hadecoin_node_5002.py
-|──hadecoin_node_5003.py
-|──nodes.json
-|──transaction.json
+│── blockchain
+     |──blockchain.py  
+│── README.md
+|──Cryptocurrency          
+     |──hadecoin.py
+     |──hadecoin_node_5001.py
+     |──hadecoin_node_5002.py
+     |──hadecoin_node_5003.py
+     |──nodes.json
+     |──transaction.json
+|──Smart Contract
+     |──hadcoins_ico.sol
 
 
 ```
